@@ -6,16 +6,21 @@ body
 
 div#outer
 {
+    position: relative;
+    z-index: 1;
     width:1000px;
     background-color:#333333;
     min-height:500px;
     border-top-left-radius:25px;
     border-top-right-radius:25px;
-    margin: 0px auto 0px auto;
+    margin: 0px auto;
 }
 
 ul#topbar
 {
+    position: relative;
+    padding: 0px;
+    z-index: 1;
     padding: 0px;
     width:100%;
     height:50px;
@@ -28,6 +33,8 @@ ul#topbar
 
 div#content
 {
+    position: relative;
+    z-index: 1;
     width:100%;
     border-top-left-radius:15px;
     border-top-right-radius:15px;
@@ -44,4 +51,39 @@ li.topbar-element
     font-weight:bold;
     text-align: center;
     display: block
+}
+
+/*
+** Sitemap styling goes here
+*/
+div#sitemap {
+    background-color:#0050a0;
+    top:16px;
+    z-index: 0;
+    height: 200px;
+    position: absolute;
+}
+div.hidden {
+    left: -123px;
+}
+div.display {
+    top: 66px;
+    left: 0px;
+}
+
+div#sitemap div.toggler {
+    z-index: 2;
+    left: 81px;
+    top: 92px;
+    position: relative;
+    transform: rotate(90deg);
+    display: block;
+    padding: 10px;
+    background-color:#0050a0;
+}
+.node {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    top: -10px;
 }
