@@ -29,7 +29,6 @@ ul#topbar
     background-color:#0050a0;
     border-top-left-radius:15px;
     border-top-right-radius:15px;
-    float:top;
 }
 
 div.expandable
@@ -59,7 +58,6 @@ div.expandableTopbar
 div#content
 {
     width:100%;
-    float:bottom;
 }
 
 li.topbar-element

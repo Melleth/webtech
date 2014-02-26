@@ -43,6 +43,7 @@ function updateExpandables()
 
 function loadPage(page)
 {
+	AppendNode(page);
     $("div#content").slideUp();
     $("div#content").load("pages/" + page + ".html", function()
     {
