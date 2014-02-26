@@ -10,6 +10,7 @@ div#outer
     min-height:500px;
     border-top-left-radius:25px;
     border-top-right-radius:25px;
+    margin: 0px auto 0px auto;
 }
 
 div#topbar
@@ -35,8 +36,9 @@ div.button
 {
     width:25%;
     height:100%;
-    margin-top:12px;
+    margin-top:16px;
     float:left;
     color:white;
     font-weight:bold;
+    text-align: center;
 }
