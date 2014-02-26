@@ -1,7 +1,10 @@
 $(document).ready(function() {
+	/*
+	** Wire click listeners to our topbar buttons here.
+	*/
 	var buttons = [];
+	//get the 
 	buttons = $(".topbar-element");
-	console.log(buttons);
 	buttons.each(function(index, button) {
 		$(this).click(function() {
 			var text = $(this).contents().filter(function() {
