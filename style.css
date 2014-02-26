@@ -8,7 +8,6 @@ div#outer
 {
     width:1000px;
     background-color:#333333;
-    min-height:500px;
     border-top-left-radius:25px;
     border-top-right-radius:25px;
     margin: 0px auto 0px auto;
@@ -26,11 +25,33 @@ ul#topbar
     float:top;
 }
 
+div.expandable
+{
+    width:950px;
+    float:right;
+    background-color:#cce3f9;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    min-height:30px;
+    overflow:hidden;
+    margin-bottom:50px;
+}
+
+div.expandableTopbar
+{
+    height:30px;
+    background-color:#7fb9f2;
+    box-shadow: 0px 20px 30px rgba(255, 255, 255, 0.25) inset;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    text-align:right;
+    padding-right:50px;
+    padding-top:5px;
+}
+
 div#content
 {
     width:100%;
-    border-top-left-radius:15px;
-    border-top-right-radius:15px;
     float:bottom;
 }
 
