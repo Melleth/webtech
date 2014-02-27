@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	//First things first: display the introduction page.
+	loadPage("introduction");
 	/*
 	** Wire click listeners to our topbar buttons here.
 	*/

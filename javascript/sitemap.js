@@ -1,4 +1,16 @@
 $(document).ready(function() {
+	//Wire functionality to the sitemap links.
+	var links = [];
+	links = $("#sitemap > .node");
+	links.each(function(index, link) {
+		$(this).click(function() {
+			var text = $(this).contents().filter(function() {
+				return this.nodeType == 3;
+			}).text().toLowerCase();
+			loadPage(text);
+		});
+	});
+
 	var openSiteMapButton = $("div#sitemap > div.toggler")
 	var siteMap = $("#sitemap");
 	var isOpen = false;
