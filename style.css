@@ -33,14 +33,14 @@ ul#topbar
 
 div.expandable
 {
+    margin: 0px auto 50px auto;
     width:950px;
-    float:right;
     background-color:#cce3f9;
     border-top-left-radius:15px;
     border-top-right-radius:15px;
     min-height:30px;
     overflow:hidden;
-    margin-bottom:50px;
+    
 }
 
 div.expandableTopbar
