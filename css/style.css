@@ -38,10 +38,11 @@ div.expandable
     margin: 0px auto 0px auto;
     background-color:#cce3f9;
     min-height:30px;
-    overflow:hidden;
-    
+    overflow:hidden;   
 }
-
+div.expandable p {
+    padding: 10px;
+}
 div.expandableTopbar
 {
     height:30px;
@@ -55,6 +56,10 @@ div.expandableTopbar
 div#content
 {
     width:100%;
+}
+
+div#content p {
+    padding: 10px;
 }
 
 li.topbar-element
