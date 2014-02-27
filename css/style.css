@@ -12,6 +12,8 @@ div#outer
     background-color:#333333;
     border-top-left-radius:25px;
     border-top-right-radius:25px;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
     margin: 0px auto 0px auto;
     overflow:hidden;
 }
@@ -34,10 +36,7 @@ ul#topbar
 div.expandable
 {
     margin: 0px auto 50px auto;
-    width:950px;
     background-color:#cce3f9;
-    border-top-left-radius:15px;
-    border-top-right-radius:15px;
     min-height:30px;
     overflow:hidden;
     
@@ -48,8 +47,6 @@ div.expandableTopbar
     height:30px;
     background-color:#7fb9f2;
     box-shadow: 0px 20px 30px rgba(255, 255, 255, 0.25) inset;
-    border-top-left-radius:15px;
-    border-top-right-radius:15px;
     text-align:right;
     padding-right:50px;
     padding-top:5px;
@@ -99,6 +96,8 @@ div#sitemap div.toggler {
     display: block;
     padding: 10px;
     background-color:#0050a0;
+    width: 100px;
+    text-align: center;
 }
 .node {
     display: block;

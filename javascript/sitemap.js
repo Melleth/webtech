@@ -2,22 +2,17 @@ $(document).ready(function() {
 	var openSiteMapButton = $("div#sitemap > div.toggler")
 	var siteMap = $("#sitemap");
 	var isOpen = false;
-	console.log(openSiteMapButton);
 	openSiteMapButton.click(function() {
-		console.log("click!");
 		if (!isOpen) {
 			siteMap.addClass("display", 100, "linear");
 			siteMap.removeClass("hidden");
+			$(".toggler > p.label").html("hide sitemap")
 			isOpen = true;
 		} else {
 			siteMap.removeClass("display");
+			$(".toggler > p.label").html("show sitemap")
 			siteMap.addClass("hidden", 100, "linear");
 			isOpen = false;
 		}
 	});
 });
-function AppendNode(node) {
-		var siteMap = $("#sitemap");
-		var previousNodes = $("#sitemap > .node");
-		console.log(previousNodes);
-	}
